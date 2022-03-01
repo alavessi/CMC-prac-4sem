@@ -1,0 +1,13 @@
+program
+{
+	int c = 0;
+	L: c = c+5;
+	if (c < 20)
+	{
+		goto L;
+	}
+	else
+	{
+		write(c);
+	}
+} 

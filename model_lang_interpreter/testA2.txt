@@ -1,0 +1,8 @@
+program
+{
+	int a,b,c;
+	a=7;
+	b=3;
+	read(c);
+	write(a+b-c);	
+}

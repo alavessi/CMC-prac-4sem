@@ -1,0 +1,8 @@
+CC=g++
+STD=c++14
+CFLAGS=-Wall -o
+CFILES=lex.cpp ident.cpp scanner.cpp parser.cpp executer.cpp interpreter.cpp main.cpp
+EXEC=MyProject
+
+all:
+	$(CC) -std=$(STD) $(CFLAGS) $(EXEC) $(CFILES)

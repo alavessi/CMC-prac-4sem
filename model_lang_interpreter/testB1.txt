@@ -1,0 +1,7 @@
+program
+{
+	int j = 6, k;
+ 	k = ( i + 5 * i ) * 2; 
+ 	writee (k);/* ERROR – ошибка в слове write */
+	write ("ERROR not detected"); 
+}
